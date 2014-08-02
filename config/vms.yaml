@@ -1,0 +1,26 @@
+---
+vms:
+- name: ca.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
+- name: compile1.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
+- name: puppetdb.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
+- name: mcohub.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
+- name: mcospoke1.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
+- name: mcospoke2.er.puppetlabs.demo
+  box: puppetlabs/centos-6.5-64-nocm
+  roles:
+  - pe-puppet-master
