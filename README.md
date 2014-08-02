@@ -17,6 +17,9 @@ vagrant snap take
 
 vagrant snap rollback
 
+To have these hosts in your /etc/hosts file, run something like this:
+vagrant hosts puppetize | sudo puppet apply
+
 If you are using fabric, what I had to do to get the vagrant key to work was explicity call the key and user, even after modifying my ~/.ssh/config
 
 alias fab='fab -i ~/.vagrant/insecure_private_key -u vagrant'
